@@ -333,19 +333,19 @@ if submit:
 # In[ ]:
 
 
-get_ipython().system('streamlit --version')
+# get_ipython().system('streamlit --version')
 
 
 # In[ ]:
 
 
-get_ipython().system('jupyter nbconvert --to script Principlesofdatascience.ipynb')
+# get_ipython().system('jupyter nbconvert --to script Principlesofdatascience.ipynb')
 
 
 # In[ ]:
 
 
-get_ipython().system('streamlit run Principlesofdatascience.py')
+# get_ipython().system('streamlit run Principlesofdatascience.py')
 
 
 # In[ ]:
