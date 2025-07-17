@@ -273,15 +273,6 @@ plt.show()
 
 
 # Check if Gender impacts performance
-male_idx = X_test[X_test['Gender'] == 'M'].index
-female_idx = X_test[X_test['Gender'] == 'F'].index
-
-from sklearn.metrics import accuracy_score
-
-print("Male Accuracy:", accuracy_score(y_test.loc[male_idx], y_pred[male_idx]))
-print("Female Accuracy:", accuracy_score(y_test.loc[female_idx], y_pred[female_idx]))
-
-# Mitigation (if big bias): Sample balancing, fairness constraints, reweighting
 
 
 # In[ ]:
