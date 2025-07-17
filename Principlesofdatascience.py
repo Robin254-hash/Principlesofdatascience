@@ -19,7 +19,7 @@ import seaborn as sns
 # In[2]:
 
 
-data = pd.read_csv("C:/Users/ITTECH.NCIA1.013/Downloads/archive/KaggleV2-May-2016.csv")
+data = pd.read_csv("Principlesofdatascience.csv.csv")
 
 
 # In[3]:
